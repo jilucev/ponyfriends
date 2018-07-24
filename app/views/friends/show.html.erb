@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @friend.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @friend.age %>
+</p>
+
+<p>
+  <strong>Ponies:</strong>
+  <% @friend.ponies.each do |pony|%>
+    <%= link_to "#{pony.name}", pony_path(pony) %>
+  <%end%>
+</p>
+
+<%= link_to 'Edit', edit_friend_path(@friend) %> |
+<%= link_to 'Back', friends_path %>

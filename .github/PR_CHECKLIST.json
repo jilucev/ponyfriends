@@ -1,0 +1,30 @@
+{
+  "rules": [
+    {
+      "pattern": ".*",
+      "name": "Global Rules",
+      "checks": [
+        "Matched style guide?",
+        "Has comments?",
+        "Adds tests?"
+      ]
+    },
+    {
+      "pattern": "db/.*",
+      "name": "DB Rules",
+      "checks": [
+        "It looks like this change modifies the database. Have you notified management?",
+        "Have you written your migrations to avoid locking any table?",
+      ]
+    },
+    {
+      "pattern": "app/models/.*",
+      "name": "model Rules",
+      "checks": [
+        "Have you documented any new class methods?",
+        "Have you declared any new relationships?",
+        "Have you modified any existing relationships?",
+      ]
+    }
+  ]
+}

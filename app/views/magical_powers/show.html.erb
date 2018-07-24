@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @magical_power.name %>
+</p>
+
+<p>
+  <strong>Intensity:</strong>
+  <%= @magical_power.intensity %>
+</p>
+
+<%= link_to 'Edit', edit_magical_power_path(@magical_power) %> |
+<%= link_to 'Back', magical_powers_path %>

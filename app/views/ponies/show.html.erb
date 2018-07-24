@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @pony.name %>
+</p>
+
+<p>
+  <strong>Breed:</strong>
+  <%= @pony.breed %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @pony.color %>
+</p>
+
+<p>
+  <strong>Friends:</strong>
+  <% @pony.friends.each do |friend|%>
+    <%= link_to "#{friend.name}", friend_path(friend) %>
+  <%end%>
+</p>
+
+<p>
+  <strong>Magical Powers:</strong>
+  <ol>
+    <% @pony.magical_powers.each do |magical_power|%>
+      <li><strong><%= magical_power.name %></strong> - <%= magical_power.description%></li>
+    <%end%>
+  </ol>
+</p>
+
+<%= link_to 'Edit', edit_pony_path(@pony) %> |
+<%= link_to 'Back', ponies_path %>
