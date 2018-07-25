@@ -5,7 +5,7 @@
       "name": "Global Rules",
       "checks": [
         "Matched style guide?",
-        "Has comments?",
+        "Have you added any new feature flags?",
         "Adds tests?"
       ]
     },
@@ -19,11 +19,27 @@
     },
     {
       "pattern": "app/models/.*",
-      "name": "model Rules",
+      "name": "Model Rules",
       "checks": [
         "Have you documented any new class methods?",
         "Have you declared any new relationships?",
         "Have you modified any existing relationships?"
+      ]
+    },
+    {
+      "pattern": "app/controllers/.*",
+      "name": "Controller Rules",
+      "checks": [
+        "Have you modified the existing functionality of any action?",
+        "Are your changes protected by a feature flag?"
+      ]
+    },
+    {
+      "pattern": "lib/tasks/.*",
+      "name": "Task Rules",
+      "checks": [
+        "Have you scheduled a maintenance window to run this task?",
+        "Have you ensured the safety of running this task?"
       ]
     }
   ]
