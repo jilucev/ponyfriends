@@ -14,7 +14,7 @@
       "name": "DB Rules",
       "checks": [
         "It looks like this change modifies the database. Have you notified management?",
-        "Have you written your migrations to avoid locking any table?",
+        "Have you written your migrations to avoid locking any table?"
       ]
     },
     {
@@ -23,7 +23,7 @@
       "checks": [
         "Have you documented any new class methods?",
         "Have you declared any new relationships?",
-        "Have you modified any existing relationships?",
+        "Have you modified any existing relationships?"
       ]
     }
   ]
