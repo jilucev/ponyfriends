@@ -11,7 +11,7 @@
     },
     {
       "pattern": "db/.*",
-      "name": "DB Rules",
+      "name": "DB Checks",
       "checks": [
         "It looks like this change modifies the database. Have you notified management?",
         "Have you written your migrations to avoid locking any table?"
@@ -19,7 +19,7 @@
     },
     {
       "pattern": "app/models/.*",
-      "name": "Model Rules",
+      "name": "Model Checks",
       "checks": [
         "Have you documented any new class methods?",
         "Have you declared any new relationships?",
@@ -28,7 +28,7 @@
     },
     {
       "pattern": "app/controllers/.*",
-      "name": "Controller Rules",
+      "name": "Controller Checks",
       "checks": [
         "Have you modified the existing functionality of any action?",
         "Are your changes protected by a feature flag?"
@@ -36,10 +36,18 @@
     },
     {
       "pattern": "lib/tasks/.*",
-      "name": "Task Rules",
+      "name": "Task Checks",
       "checks": [
         "Have you scheduled a maintenance window to run this task?",
         "Have you ensured the safety of running this task?"
+      ]
+    },
+    {
+      "pattern": "app/serializers.*",
+      "name": "Serializer Checks",
+      "checks": [
+        "Have you notified the frontend team of the change?",
+        "Have you notified management?"
       ]
     }
   ]
