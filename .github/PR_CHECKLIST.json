@@ -41,6 +41,14 @@
         "Have you scheduled a maintenance window to run this task?",
         "Have you ensured the safety of running this task?"
       ]
+    },
+    {
+      "pattern": "app/serializers/.*",
+      "name": "Serializer Rules",
+      "checks": [
+        "Have you notified the full frontal team that you're changing this serializer?",
+        "Have you run a smoke test?"
+      ]
     }
   ]
 }
