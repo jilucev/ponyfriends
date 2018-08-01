@@ -63,6 +63,7 @@ class FriendsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    # demo
     def set_friend
       @friend = Friend.find(params[:id])
     end
