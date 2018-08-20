@@ -1,5 +1,4 @@
 class MagicalPowersController < ApplicationController
-  #test
   before_action :set_magical_power, only: [:show, :edit, :update, :destroy]
 
   # GET /magical_powers
