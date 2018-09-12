@@ -1,6 +1,6 @@
 class MagicalPowersController < ApplicationController
   before_action :set_magical_power, only: [:show, :edit, :update, :destroy]
-  # 
+
   # GET /magical_powers
   # GET /magical_powers.json
   def index
