@@ -1,4 +1,12 @@
-pr-checkbot[bot]/npr-checkbot[bot]@users.noreply.github.com/n2018-09-13T20:46:36Z/nno message/n# Code Review Checklist
+pr-checkbot[bot]/npr-checkbot[bot]@users.noreply.github.com/n2018-09-13T20:48:33Z/nno message/n# Code Review Checklist
+## Global Rules
+- [ ] Matched style guide?
+- [ ] Have you added any new feature flags?
+- [ ] Adds tests?
+## Model Checks
+- [ ] Have you documented any new class methods?
+- [ ] Have you declared any new relationships?
+- [ ] Have you modified any existing relationships?/npr-checkbot[bot]/npr-checkbot[bot]@users.noreply.github.com/n2018-09-13T20:46:36Z/nno message/n# Code Review Checklist
 ## Global Rules
 - [ ] Matched style guide?
 - [ ] Have you added any new feature flags?
