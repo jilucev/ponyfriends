@@ -1,4 +1,14 @@
-f0185c311920de4943d30bac56567af4d8f02a1d/njilucev7@gmail.com/nMerge pull request #45 from jilucev/jasmine
+ - ================================================================================ /n - jilucev7@gmail.com /n - Merge pull request #47 from jilucev/lilac
+
+lilac /n - f2f3252cebc99e1693180e807628074b5baaf07a/n# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?/nf0185c311920de4943d30bac56567af4d8f02a1d/njilucev7@gmail.com/nMerge pull request #45 from jilucev/jasmine
 
 adds jasmine/n# Code Review Checklist
 ## Global Rules
