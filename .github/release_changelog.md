@@ -1,3 +1,18 @@
+ ================================================================================ 
+ jilucev7@gmail.com 
+ Merge pull request #49 from jilucev/buttercup
+
+buttercup 
+ c1cb173ac4dcd571c69a9e21f8329b5efa082685
+# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?
  - ================================================================================ 
  - jilucev7@gmail.com 
  - Merge pull request #48 from jilucev/tiger_lily
@@ -92,3 +107,4 @@ adds jasmine/n# Code Review Checklist
 =======
 
  - ================================================================================ 
+ ================================================================================ 
