@@ -1,3 +1,18 @@
+ - ================================================================================ 
+ - jilucev7@gmail.com 
+ - Merge pull request #48 from jilucev/tiger_lily
+
+tiger lily 
+ - 475ac965c4145641c0218631e46503a06cb770cc
+# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?
  - ================================================================================ /n - jilucev7@gmail.com /n - Merge pull request #47 from jilucev/lilac
 
 lilac /n - f2f3252cebc99e1693180e807628074b5baaf07a/n# Code Review Checklist
@@ -75,3 +90,5 @@ adds jasmine/n# Code Review Checklist
 - [x] Have you modified the existing functionality of any action?
 - [x] Are your changes protected by a feature flag?/n#Hello Pony World
 =======
+
+ - ================================================================================ 
