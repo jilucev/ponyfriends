@@ -1,4 +1,12 @@
-Jillian/njilucev7@gmail.com/n2018-09-12T18:10:44Z/nno message/n# Code Review Checklist
+Jillian/njilucev7@gmail.com/n2018-09-13T18:03:18Z/nno message/n# Code Review Checklist
+## Global Rules
+- [ ] Matched style guide?
+- [ ] Have you added any new feature flags?
+- [ ] Adds tests?
+## Model Checks
+- [ ] Have you documented any new class methods?
+- [ ] Have you declared any new relationships?
+- [ ] Have you modified any existing relationships?/nJillian/njilucev7@gmail.com/n2018-09-12T18:10:44Z/nno message/n# Code Review Checklist
 ## Global Rules
 - [x] Matched style guide?
 - [x] Have you added any new feature flags?
