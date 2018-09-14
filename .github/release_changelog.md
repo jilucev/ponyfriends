@@ -1,5 +1,23 @@
  ================================================================================ 
  jilucev7@gmail.com 
+ Merge pull request #50 from jilucev/pony_practice
+
+Adds tomatoes 
+ 5b01e6d0fa3c7d7060c49f7813cf5432d43d92d4
+# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?
+## Controller Checks
+- [x] Have you modified the existing functionality of any action?
+- [x] Are your changes protected by a feature flag?
+ ================================================================================ 
+ jilucev7@gmail.com 
  Merge pull request #49 from jilucev/buttercup
 
 buttercup 
@@ -107,4 +125,5 @@ adds jasmine/n# Code Review Checklist
 =======
 
  - ================================================================================ 
+ ================================================================================ 
  ================================================================================ 
