@@ -1,5 +1,20 @@
  ================================================================================ 
  jilucev7@gmail.com 
+ Merge pull request #52 from jilucev/lilac
+
+lilac 
+ 508b7c43afa74ca723f96e4026e4c46863173dba
+# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?
+ ================================================================================ 
+ jilucev7@gmail.com 
  Merge pull request #51 from jilucev/satsuma
 
 satsuma 
@@ -143,6 +158,7 @@ adds jasmine/n# Code Review Checklist
 =======
 
  - ================================================================================ 
+ ================================================================================ 
  ================================================================================ 
  ================================================================================ 
  ================================================================================ 
