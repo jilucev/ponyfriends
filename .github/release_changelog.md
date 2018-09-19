@@ -1,5 +1,23 @@
  ================================================================================ 
  jilucev7@gmail.com 
+ Merge pull request #54 from jilucev/demo_branch
+
+is a demo 
+ 9840bc6686eb42396833e2b3971fe92731aba520
+# Code Review Checklist
+## Global Rules
+- [x] Matched style guide?
+- [x] Have you added any new feature flags?
+- [x] Adds tests?
+## Model Checks
+- [x] Have you documented any new class methods?
+- [x] Have you declared any new relationships?
+- [x] Have you modified any existing relationships?
+## Controller Checks
+- [x] Have you modified the existing functionality of any action?
+- [x] Are your changes protected by a feature flag?
+ ================================================================================ 
+ jilucev7@gmail.com 
  Merge pull request #53 from jilucev/cleanup
 
 pick flowers 
@@ -173,6 +191,7 @@ adds jasmine/n# Code Review Checklist
 =======
 
  - ================================================================================ 
+ ================================================================================ 
  ================================================================================ 
  ================================================================================ 
  ================================================================================ 
